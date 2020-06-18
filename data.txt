@@ -1,0 +1,22 @@
+	"name":"nedko",
+	"username":"nedko!",
+	"email":"ned@ko.com",
+	"password":"pass1!"
+
+
+ "success": true,
+    "message": "User registered successfully"
+
+
+
+Sign in new user
+
+
+
+"accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI3NyIsImlhdCI6MTU5MDA3NjA5MiwiZXhwIjoxNTkwMDc5NjkyfQ.5_5DSiAV5yNGz7XQlOAXIfX1wuB1eQTv1Pn7sCamo4yVoDAXkuGG36iBn5JcQgFhtHvxvoV9KTiWpyXoQf6r7Q",
+    "tokenType": "Bearer"
+
+"username":"nedko!",
+		"password":"pass1!"
+
+gencho // Secret123
