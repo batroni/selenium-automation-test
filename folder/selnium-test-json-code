@@ -1,0 +1,511 @@
+{
+  "id": "bd1e136d-bf25-43bf-9555-e226060d5d62",
+  "version": "2.0",
+  "name": "Poll Application",
+  "url": "http://poll-app7-20200409.softacad.bg/",
+  "tests": [{
+    "id": "17934811-5421-4a60-8de0-bc4458cb31e8",
+    "name": "Login Negative",
+    "commands": [{
+      "id": "cc303eaf-9781-4638-8f5d-3d9ed5a2a104",
+      "comment": "",
+      "command": "open",
+      "target": "http://poll-app7-20200409.softacad.bg/polls",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adbc8197-494d-4173-9b0d-c0b12ad86a1f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "902x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aaafb772-d06e-48ad-a906-559ae0b4bc44",
+      "comment": "",
+      "command": "click",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abfbcbd9-bac9-48c2-987f-da5c52979a67",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//button[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarSupportedContent']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "169bf615-1381-4cea-9cfe-418a417da42a",
+      "comment": "",
+      "command": "click",
+      "target": "id=usernameOrEmail",
+      "targets": [
+        ["id=usernameOrEmail", "id"],
+        ["css=#usernameOrEmail", "css:finder"],
+        ["xpath=//input[@id='usernameOrEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2059c8ce-7f0c-4258-a643-fe77ebfb0acd",
+      "comment": "",
+      "command": "type",
+      "target": "id=usernameOrEmail",
+      "targets": [
+        ["id=usernameOrEmail", "id"],
+        ["css=#usernameOrEmail", "css:finder"],
+        ["xpath=//input[@id='usernameOrEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nedko1"
+    }, {
+      "id": "0eaba00a-e1b8-4188-8b61-e24ed3062ac2",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "asdasd"
+    }, {
+      "id": "27bc0897-b9b7-4a12-976b-af2dd9591ad0",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.btn-block", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "86fb93f2-0fa1-44ac-9193-2a0b3ede62d1",
+    "name": "Login Positive",
+    "commands": [{
+      "id": "16865e3e-0eda-43b6-a9b2-7fce7e5c522a",
+      "comment": "",
+      "command": "open",
+      "target": "http://poll-app7-20200409.softacad.bg/polls",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1379b47e-4d02-4c5a-9fc4-bbe517eee64e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "903x699",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "258c7b8d-c803-4f14-ae44-c57a8ea3a6b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler",
+      "targets": [
+        ["css=.navbar-toggler", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15f41708-2c25-44ee-b024-7e34350715fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d36e3d4d-591c-4aca-8ca1-1c549a902f75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggler-icon",
+      "targets": [
+        ["css=.navbar-toggler-icon", "css:finder"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f403d94e-90a3-4955-8695-85922076e40a",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//button[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarSupportedContent']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "862d034b-00ed-4538-8bd2-62afdfc6e05d",
+      "comment": "",
+      "command": "type",
+      "target": "id=usernameOrEmail",
+      "targets": [
+        ["id=usernameOrEmail", "id"],
+        ["css=#usernameOrEmail", "css:finder"],
+        ["xpath=//input[@id='usernameOrEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "nedko!"
+    }, {
+      "id": "89438330-a2e1-4a58-b044-f58b63b3bbc3",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "pass1!"
+    }, {
+      "id": "9886fc54-edff-4ac4-abcd-4345fa559464",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.btn-block", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "224000c0-bcc7-44ad-b9e2-155db7d69181",
+    "name": "Hot Air Form SUBMIT - full specs",
+    "commands": [{
+      "id": "cc402758-7fc8-4480-9508-c80387c9d1db",
+      "comment": "",
+      "command": "open",
+      "target": "https://seopixel.bg/_hotairballoons/booking",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "777e39b2-b509-495e-b506-68b471e5cc74",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "906x702",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be8e2884-283f-49f9-bd8a-fec322284176",
+      "comment": "",
+      "command": "click",
+      "target": "id=ff_elem1",
+      "targets": [
+        ["id=ff_elem1", "id"],
+        ["name=ff_nm_name[]", "name"],
+        ["css=#ff_elem1", "css:finder"],
+        ["xpath=//input[@id='ff_elem1']", "xpath:attributes"],
+        ["xpath=//span[@id='bfElemWrap1']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "daf51d1f-cedb-4e75-b4b5-8d52cac639bb",
+      "comment": "",
+      "command": "type",
+      "target": "id=ff_elem1",
+      "targets": [
+        ["id=ff_elem1", "id"],
+        ["name=ff_nm_name[]", "name"],
+        ["css=#ff_elem1", "css:finder"],
+        ["xpath=//input[@id='ff_elem1']", "xpath:attributes"],
+        ["xpath=//span[@id='bfElemWrap1']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Nedko"
+    }, {
+      "id": "d499c8ae-18c7-4e4b-9741-a658e54fcee6",
+      "comment": "",
+      "command": "type",
+      "target": "id=ff_elem2",
+      "targets": [
+        ["id=ff_elem2", "id"],
+        ["name=ff_nm_bfQuickMode5596103[]", "name"],
+        ["css=#ff_elem2", "css:finder"],
+        ["xpath=//input[@id='ff_elem2']", "xpath:attributes"],
+        ["xpath=//span[@id='bfElemWrap2']/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": "Ishpekov"
+    }, {
+      "id": "b44fc862-cc0f-4f1b-ab55-86fa1a5345ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=ff_elem50",
+      "targets": [
+        ["id=ff_elem50", "id"],
+        ["name=ff_nm_bfQuickMode2089870[]", "name"],
+        ["css=#ff_elem50", "css:finder"],
+        ["xpath=//input[@id='ff_elem50']", "xpath:attributes"],
+        ["xpath=//span[@id='bfElemWrap50']/input", "xpath:idRelative"],
+        ["xpath=//span[3]/input", "xpath:position"]
+      ],
+      "value": "nedko.plv@abv.bg"
+    }, {
+      "id": "a06794c2-9641-4351-9957-2618c80f4efc",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=ff_elem167",
+      "targets": [
+        ["id=ff_elem167", "id"],
+        ["name=ff_nm_bfQuickMode2757606[]", "name"],
+        ["css=#ff_elem167", "css:finder"],
+        ["xpath=//select[@id='ff_elem167']", "xpath:attributes"],
+        ["xpath=//span[@id='bfElemWrap167']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Панорамно издигане с балон за двама - 30лв1\nVIP Въздушна разходка с балон за двама - 150лв\nВъздушна разходка с балон за един, двама или трима - 300лв3')]", "xpath:innerText"]
+      ],
+      "value": "label=Панорамно издигане с балон за двама - 30лв1"
+    }, {
+      "id": "5e689c76-4bda-4f6b-8c65-40da41838c6d",
+      "comment": "",
+      "command": "removeSelection",
+      "target": "id=ff_elem167",
+      "targets": [
+        ["id=ff_elem167", "id"],
+        ["name=ff_nm_bfQuickMode2757606[]", "name"],
+        ["css=#ff_elem167", "css:finder"],
+        ["xpath=//select[@id='ff_elem167']", "xpath:attributes"],
+        ["xpath=//span[@id='bfElemWrap167']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Панорамно издигане с балон за двама - 30лв1\nVIP Въздушна разходка с балон за двама - 150лв\nВъздушна разходка с балон за един, двама или трима - 300лв3')]", "xpath:innerText"]
+      ],
+      "value": "label=Панорамно издигане с балон за двама - 30лв1"
+    }, {
+      "id": "fd1f39b9-c80a-4e5d-9e9c-a016b43576e7",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=ff_elem167",
+      "targets": [
+        ["id=ff_elem167", "id"],
+        ["name=ff_nm_bfQuickMode2757606[]", "name"],
+        ["css=#ff_elem167", "css:finder"],
+        ["xpath=//select[@id='ff_elem167']", "xpath:attributes"],
+        ["xpath=//span[@id='bfElemWrap167']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Панорамно издигане с балон за двама - 30лв1\nVIP Въздушна разходка с балон за двама - 150лв\nВъздушна разходка с балон за един, двама или трима - 300лв3')]", "xpath:innerText"]
+      ],
+      "value": "label=VIP Въздушна разходка с балон за двама - 150лв"
+    }, {
+      "id": "0d76483e-f674-4823-b8b2-1082f3f3689d",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=ff_elem167",
+      "targets": [
+        ["id=ff_elem167", "id"],
+        ["name=ff_nm_bfQuickMode2757606[]", "name"],
+        ["css=#ff_elem167", "css:finder"],
+        ["xpath=//select[@id='ff_elem167']", "xpath:attributes"],
+        ["xpath=//span[@id='bfElemWrap167']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'Панорамно издигане с балон за двама - 30лв1\nVIP Въздушна разходка с балон за двама - 150лв\nВъздушна разходка с балон за един, двама или трима - 300лв3')]", "xpath:innerText"]
+      ],
+      "value": "label=Панорамно издигане с балон за двама - 30лв1"
+    }, {
+      "id": "8a0abfb3-f6af-45de-9e85-4cfdbe4bc3c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ff_elem3",
+      "targets": [
+        ["id=ff_elem3", "id"],
+        ["name=ff_nm_bfQuickMode9079440[]", "name"],
+        ["css=#ff_elem3", "css:finder"],
+        ["xpath=//input[@id='ff_elem3']", "xpath:attributes"],
+        ["xpath=//span[@id='bfElementGroupNoWrap3']/div/div/input", "xpath:idRelative"],
+        ["xpath=//span/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "804a242b-957d-46da-97a4-5ebb8cb1a59e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ff_elem3_calendarButton",
+      "targets": [
+        ["id=ff_elem3_calendarButton", "id"],
+        ["css=#ff_elem3_calendarButton", "css:finder"],
+        ["xpath=//button[@id='ff_elem3_calendarButton']", "xpath:attributes"],
+        ["xpath=//span[@id='bfElementGroupNoWrap3']/div/div/button", "xpath:idRelative"],
+        ["xpath=//span/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Отвори календар')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b867c8d-465e-498d-9387-692b2e42f96f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected",
+      "targets": [
+        ["css=.selected", "css:finder"],
+        ["xpath=//span[@id='bfElementGroupNoWrap3']/div/div[2]/div/table/tbody/tr[5]/td[5]", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aba776f3-a2f6-4748-9421-86926431e3ee",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=bfElemWrap3",
+      "targets": [
+        ["id=bfElemWrap3", "id"],
+        ["css=#bfElemWrap3", "css:finder"],
+        ["xpath=//span[@id='bfElemWrap3']", "xpath:attributes"],
+        ["xpath=//div[@id='bfQuickModeSection34267']/div/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "caaa4de4-7a17-411a-b009-1a72eb94d1a1",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=ff_elem269",
+      "targets": [
+        ["id=ff_elem269", "id"],
+        ["name=ff_nm_Text[]", "name"],
+        ["css=#ff_elem269", "css:finder"],
+        ["xpath=//textarea[@id='ff_elem269']", "xpath:attributes"],
+        ["xpath=//section[@id='bfElemWrap269']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f883b11c-6297-445c-8d8b-1de3dfd63400",
+      "comment": "",
+      "command": "click",
+      "target": "id=bfPage1",
+      "targets": [
+        ["id=bfPage1", "id"],
+        ["css=#bfPage1", "css:finder"],
+        ["xpath=//div[@id='bfPage1']", "xpath:attributes"],
+        ["xpath=//form[@id='ff_form1']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de519849-758f-4dfa-8a91-700c51c89d72",
+      "comment": "",
+      "command": "click",
+      "target": "id=ff_elem269",
+      "targets": [
+        ["id=ff_elem269", "id"],
+        ["name=ff_nm_Text[]", "name"],
+        ["css=#ff_elem269", "css:finder"],
+        ["xpath=//textarea[@id='ff_elem269']", "xpath:attributes"],
+        ["xpath=//section[@id='bfElemWrap269']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e73f3e1a-78cc-4f6a-8ced-f775bca03719",
+      "comment": "",
+      "command": "type",
+      "target": "id=ff_elem269",
+      "targets": [
+        ["id=ff_elem269", "id"],
+        ["name=ff_nm_Text[]", "name"],
+        ["css=#ff_elem269", "css:finder"],
+        ["xpath=//textarea[@id='ff_elem269']", "xpath:attributes"],
+        ["xpath=//section[@id='bfElemWrap269']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Hello "
+    }, {
+      "id": "791415e9-e8d5-4336-88ba-a0d0d10aa27f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bfNextButton > span",
+      "targets": [
+        ["css=.bfNextButton > span", "css:finder"],
+        ["xpath=//div[@id='bfPage1']/button/span", "xpath:idRelative"],
+        ["xpath=//form/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Провери избраното')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79ab0be5-4cde-46de-8e74-91e42ca9b68d",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "4666d9d5-3ab8-4fa9-b1f5-258c2b9a9eba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3273887f-f05a-407f-b2ed-a06337f1b155",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "d206dc32-011c-450b-b950-8b37aa5874f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#bfSubmitButton > span",
+      "targets": [
+        ["css=#bfSubmitButton > span", "css:finder"],
+        ["xpath=//button[@id='bfSubmitButton']/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Прати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d7848c11-f042-4018-bba0-8215e18bb446",
+    "name": "[TG-1][Nedko] Unsuccessful registration attempt with username containing more than 40",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "510c2499-e458-449a-880a-52c511ced082",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "065d8d8c-e0a3-4d2b-9cea-76e53022fa71",
+    "name": "Login tests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["86fb93f2-0fa1-44ac-9193-2a0b3ede62d1", "17934811-5421-4a60-8de0-bc4458cb31e8"]
+  }],
+  "urls": ["http://poll-app7-20200409.softacad.bg/", "https://seopixel.bg/_hotairballoons/booking"],
+  "plugins": []
+}
